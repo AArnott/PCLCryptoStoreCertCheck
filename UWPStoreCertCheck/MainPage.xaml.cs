@@ -25,6 +25,7 @@ namespace UWPStoreCertCheck
         public MainPage()
         {
             this.InitializeComponent();
+            textBlock.Text = CryptShared.CryptoSample.GetPlaintext();
         }
     }
 }
